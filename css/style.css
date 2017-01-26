@@ -1,0 +1,101 @@
+body {
+	background: -webkit-linear-gradient(left, #9cf, #cef);
+	background: linear-gradient(to right, #9cf, #cef);
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: #234;
+}
+
+.card {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	width: 250px;
+	height: 386px;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+}
+
+.background {
+	width: 250px;
+	height: 150px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.background img {
+	width: 250px;
+	height: 150px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.photo {
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	width: 100px;
+	height: 100px;
+	background: #000;
+	border-radius: 50%;
+}
+
+.photo img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.info {
+	position: relative;
+	top: 50px;
+	text-align: center;
+	line-height: 10px;
+}
+
+.location {
+	position: relative;
+	top: 50px;
+}
+
+.location > h3 {
+	text-align: center;
+	font-size: 15px;
+}
+
+.fo {
+	position: relative;
+	top: 45px;
+}
+
+.fo > div {
+	display: inline-block;
+	width: 49.2%;
+	text-align: center;
+	line-height: 5px;
+}
+
+.follow {
+	position: relative;
+	top: 30px;
+	background: #39f;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	cursor: hand;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+	color: #234;
+}
